@@ -1,6 +1,6 @@
 import binascii
 
-# or simply linux: "strings minion.jpg"
+# or simply linux: "strings minion.jpg | grep flag"
 
 with open("minion.jpg", "rb") as f:
     byte_array = f.read(32)
