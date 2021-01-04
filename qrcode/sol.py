@@ -1,7 +1,3 @@
-# apt-get install libzbar0 libzbar-dev
-# pip install zbarlight # you can also use setuptools directly
-# pip install pypng zbar pillow qrtools
-
 from PIL import Image
 from pyzbar.pyzbar import decode
 import base64
